@@ -1,0 +1,19 @@
+{
+  "name": "template-node-hapi-backend",
+  "version": "0.0.0",
+  "description": "Template for Node.js backend microservice utilising the Hapi.js plugin ecosystem",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rtasalem/template-node-hapi-backend.git"
+  },
+  "author": "Rana Salem (github.com/rtasalem)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rtasalem/template-node-hapi-backend/issues"
+  },
+  "homepage": "https://github.com/rtasalem/template-node-hapi-backend#readme"
+}
