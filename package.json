@@ -12,8 +12,9 @@
   },
   "author": "Rana Salem (github.com/rtasalem)",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/rtasalem/template-node-hapi-backend/issues"
-  },
-  "homepage": "https://github.com/rtasalem/template-node-hapi-backend#readme"
+  "dependencies": {
+    "convict": "6.2.5",
+    "neostandard": "0.13.0",
+    "vitest": "4.1.4"
+  }
 }
