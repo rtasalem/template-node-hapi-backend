@@ -1,4 +1,4 @@
-import convict  from 'convict'
+import convict from 'convict'
 import convictFormatWithValidator from 'convict-format-with-validator'
 import { serverConfig } from './server.js'
 
