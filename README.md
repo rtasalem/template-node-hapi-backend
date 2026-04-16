@@ -5,7 +5,7 @@ This template is for Node.js backend microservices.
 ## Prerequisites
 
 - Docker & Docker Compose
-- Node.js & NPM (use NVM to install both)
+- Node.js & NPM (recommended to use NVM to install both)
 
 ## Local development
 
