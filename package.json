@@ -14,7 +14,9 @@
   "license": "MIT",
   "dependencies": {
     "convict": "6.2.5",
-    "neostandard": "0.13.0",
     "vitest": "4.1.4"
+  },
+  "devDependencies": {
+    "neostandard": "0.13.0"
   }
 }
