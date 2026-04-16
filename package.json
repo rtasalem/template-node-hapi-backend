@@ -2,9 +2,10 @@
   "name": "template-node-hapi-backend",
   "version": "0.0.0",
   "description": "Template for Node.js backend microservice utilising the Hapi.js plugin ecosystem",
+  "type": "module",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "NODE_ENV=production node --use-strict ."
   },
   "repository": {
     "type": "git",
@@ -13,10 +14,14 @@
   "author": "Rana Salem (github.com/rtasalem)",
   "license": "MIT",
   "dependencies": {
+    "@hapi/hapi": "21.4.8",
     "convict": "6.2.5",
-    "vitest": "4.1.4"
+    "convict-format-with-validator": "6.2.0",
+    "joi": "18.1.2"
   },
   "devDependencies": {
-    "neostandard": "0.13.0"
+    "neostandard": "0.13.0",
+    "nodemon": "3.1.14",
+    "vitest": "4.1.4"
   }
 }
