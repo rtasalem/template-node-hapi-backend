@@ -1,0 +1,11 @@
+services:
+  template-node-hapi-backend:
+    ports:
+      - '3000:3000'
+    networks:
+      - template-node-hapi-backend
+    
+networks:
+  template-node-hapi-backend:
+    driver: bridge
+    name: template-node-hapi-backend

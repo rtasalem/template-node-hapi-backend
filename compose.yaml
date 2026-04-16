@@ -1,0 +1,8 @@
+services:
+  template-node-hapi-backend:
+    build:
+      context: .
+      target: development
+    volumes:
+      - ./src:/home/node/src
+      - ./package.json:/home/node/package.json

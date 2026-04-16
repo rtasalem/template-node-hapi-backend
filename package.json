@@ -7,6 +7,7 @@
   "scripts": {
     "start": "NODE_ENV=production node --use-strict .",
     "start:watch": "nodemon --inspect=0.0.0.0 --ext js,json --legacy-watch ./src",
+    "dev": "NODE_ENV=development npm run start:watch",
     "lint": "npx eslint . --ext .js",
     "lint:fix": "npx eslint . --ext .js --fix"
   },
