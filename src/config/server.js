@@ -15,7 +15,8 @@ export const serverConfig = {
     port: {
       doc: 'Port to bind',
       format: 'port',
-      default: 3000
+      default: 3000,
+      env: 'PORT'
     },
     env: {
       doc: 'Application environment',
