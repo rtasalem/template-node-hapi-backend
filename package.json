@@ -8,6 +8,7 @@
     "start": "NODE_ENV=production node --use-strict .",
     "start:watch": "nodemon --inspect=0.0.0.0 --ext js,json --legacy-watch ./src",
     "dev": "NODE_ENV=development npm run start:watch",
+    "test": "TZ=UTC vitest run --coverage",
     "lint": "npx eslint . --ext .js",
     "lint:fix": "npx eslint . --ext .js --fix"
   },
@@ -24,6 +25,7 @@
     "joi": "18.1.2"
   },
   "devDependencies": {
+    "@vitest/coverage-v8": "4.1.4",
     "neostandard": "0.13.0",
     "nodemon": "3.1.14",
     "vitest": "4.1.4"
