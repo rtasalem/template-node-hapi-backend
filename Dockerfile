@@ -5,7 +5,8 @@ ARG PORT=3000
 FROM node:${PARENT_VERSION} AS development
 ARG PARENT_VERSION
 
-WORKDIR /home/node
+# need this
+WORKDIR /home/node 
 
 ARG PORT
 ENV PORT=${PORT}
