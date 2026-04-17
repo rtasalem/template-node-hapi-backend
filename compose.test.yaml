@@ -1,0 +1,7 @@
+services:
+  template-node-hapi-backend:
+    build:
+      target: development
+    command: npm test
+    volumes:
+      - ./test:/home/node/test
