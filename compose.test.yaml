@@ -5,4 +5,3 @@ services:
     command: npm test
     volumes:
       - ./test:/home/node/test
-      - ./coverage:/home/node/coverage

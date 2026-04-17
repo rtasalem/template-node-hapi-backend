@@ -15,10 +15,6 @@
     "lint": "npx eslint . --ext .js",
     "lint:fix": "npx eslint . --ext .js --fix"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rtasalem/template-node-hapi-backend.git"
-  },
   "author": "Rana Salem (github.com/rtasalem)",
   "license": "MIT",
   "dependencies": {
