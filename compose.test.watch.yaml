@@ -1,0 +1,3 @@
+services:
+  template-node-hapi-backend:
+    command: npm run test:watch

@@ -1,7 +1,7 @@
 import { config } from '../config/index.js'
 import { createServer } from './create-server.js'
 
-export async function startServer() {
+export async function startServer () {
   let server
   const serviceName = config.get('server.serviceName')
   const port = config.get('server.port')

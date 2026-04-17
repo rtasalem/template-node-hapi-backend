@@ -1,4 +1,4 @@
-import { describe, beforeAll, afterAll, test, expect, vi } from 'vitest'
+import { describe, beforeAll, afterAll, afterEach, test, expect, vi } from 'vitest'
 import Hapi from '@hapi/hapi'
 
 describe('startServer', () => {
