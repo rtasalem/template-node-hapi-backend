@@ -5,7 +5,6 @@ ARG PORT=3000
 FROM node:${PARENT_VERSION} AS development
 ARG PARENT_VERSION
 
-# need this
 WORKDIR /home/node 
 
 ARG PORT
