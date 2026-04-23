@@ -35,6 +35,20 @@ Stop the service:
 docker compose down # use -v to delete volumes
 ```
 
+### Testing
+
+Integration and unit tests are configured to run inside a Docker container and it is recommended to use Docker Compose for local testing.
+
+Run the test container and generate a coverage report:
+```
+npm run docker:test
+```
+
+Run the test container in watch mode to support TDD (test driven development):
+```
+npm run docker:test:watch
+```
+
 ### Linting
 
 The service uses [neostandard](https://github.com/neostandard/neostandard) as the chosen linter.
