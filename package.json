@@ -10,7 +10,7 @@
     "dev": "NODE_ENV=development npm run start:watch",
     "test": "TZ=UTC vitest run --coverage",
     "test:watch": "TZ=UTC vitest",
-    "docker:test": "npm run lint && mkdir -p coverage && docker compose -p template-node-hapi-backend-test down -v && docker compose -f compose.yaml -f compose.test.yaml -p template-node-hapi-backend-test run --build --rm template-node-hapi-backend",
+    "docker:test": "npm run lint && mkdir -p coverage 2>/dev/null || true && docker compose -p template-node-hapi-backend-test down -v && docker compose -f compose.yaml -f compose.test.yaml -p template-node-hapi-backend-test run --build --rm template-node-hapi-backend",
     "docker:test:watch": "docker compose -p template-node-hapi-backend-test down -v && docker compose -f compose.yaml -f compose.test.yaml -f compose.test.watch.yaml -p template-node-hapi-backend-test run --build --rm template-node-hapi-backend",
     "lint": "npx eslint . --ext .js",
     "lint:fix": "npx eslint . --ext .js --fix"
