@@ -6,3 +6,4 @@ services:
     volumes:
       - ./src:/home/node/src
       - ./package.json:/home/node/package.json
+      - ./vitest.config.js:/home/node/vitest.config.js
