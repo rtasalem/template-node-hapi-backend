@@ -28,6 +28,7 @@ jobs:
       - name: Run Tests
         run: |
           npm run docker:test
+
       - name: Test Docker Image Build
         run: |
           set +e
