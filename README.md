@@ -2,6 +2,16 @@
 
 This template is for Node.js backend microservices.
 
+## Quality gate summary (example)
+
+| Metric | Status |
+| ------ | ------ |
+| Build | ![Build](https://github.com/rtasalem/template-node-hapi-backend/actions/workflows/build.yaml/badge.svg) |
+| Bugs | [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=rtasalem:template-node-hapi-backend&metric=bugs)](https://sonarcloud.io/summary/new_code?id=rtasalem:template-node-hapi-backend) |
+| Code smells | [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=rtasalem:template-node-hapi-backend&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=rtasalem:template-node-hapi-backend) |
+| Duplicated lines (%) | [![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=rtasalem:template-node-hapi-backend&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=rtasalem:template-node-hapi-backend) |
+| Coverage | [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=rtasalem:template-node-hapi-backend&metric=coverage)](https://sonarcloud.io/summary/new_code?id=rtasalem:template-node-hapi-backend) |
+
 ## Prerequisites
 
 - Docker & Docker Compose
