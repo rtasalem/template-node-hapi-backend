@@ -1,4 +1,4 @@
-name: Build
+name: Main Build
 
 on:
   push:
@@ -13,7 +13,7 @@ permissions:
 jobs:
   build:
     if: github.run_number != 1
-    name: Build workflow
+    name: Main build workflow
     runs-on: ubuntu-latest
     steps:
       - name: Check out code
