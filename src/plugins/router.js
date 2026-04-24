@@ -5,9 +5,9 @@ export const router = {
     name: 'router',
     register: (server, _options) => {
       server.route(
-        [].concat(
+        [
           health
-        )
+        ].flat()
       )
     }
   }

@@ -25,6 +25,7 @@
   },
   "devDependencies": {
     "@vitest/coverage-v8": "4.1.4",
+    "eslint": "9.39.4",
     "neostandard": "0.13.0",
     "nodemon": "3.1.14",
     "vitest": "4.1.4"
