@@ -1,0 +1,14 @@
+vulnerability:
+  ignore-unfixed: true
+  severity:
+    - HIGH
+    - CRITICAL
+
+scan:
+  scanners:
+    - vuln
+    - secret
+    - config
+
+misconfiguration:
+  include-non-failures: false
