@@ -17,6 +17,18 @@ This template is for Node.js backend microservices.
 - Docker & Docker Compose
 - Node.js & NPM (recommended to use NVM to install both)
 
+## What's included
+
+- Containerised development environment using Docker and Docker Compose.
+- Hapi.js server.
+- [pre-commit](https://pre-commit.com/) hooks:
+  - [detect-secrets](https://github.com/Yelp/detect-secrets)
+  - ESLint with neostandard (custom hook)
+- Vitest
+- [SonarQube Cloud](https://www.sonarsource.com/products/sonarqube/cloud/?utm_source=google&utm_medium=cpc&utm_campaign=SQ-EMEA-North-UKI-Brand-Beinc&utm_content=sonarqube-cloud-core&utm_term=sonarqube+cloud&s_campaign=SQ-EMEA-North-UKI-Brand-Beinc&s_content=sonarqube-cloud-core&s_term=sonarqube+cloud&s_category=Paid&s_source=Paid+Search&s_origin=Google&cq_src=google_ads&cq_cmp=23600038942&cq_con=197298340047&cq_term=sonarqube+cloud&cq_med=&cq_plac=&cq_net=g&cq_pos=&cq_plt=gp&gad_source=1&gad_campaignid=23600038942&gclid=Cj0KCQjw2MbPBhCSARIsAP3jP9zjXQPGwIses--V_MGi8xWCL7J3Be-1DnDvPB4dlcF2uuXdlbMTtjQaAiM5EALw_wcB) code scanning on PR commits.
+- [Trivy](https://trivy.dev/) vulnerability scanning on PR commits.
+- [GitHub Dependency Review](https://github.com/marketplace/actions/dependency-review) on PR commits.
+
 ## Local development
 
 ### Dependencies
